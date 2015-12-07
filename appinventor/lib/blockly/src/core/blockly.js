@@ -307,6 +307,7 @@ Blockly.latestClick = { x: 0, y: 0 };
  * @param {!Event} e Mouse down event.
  * @private
  */
+
 Blockly.onMouseDown_ = function(e) {
   Blockly.latestClick = { x: e.clientX, y: e.clientY }; // Might be needed?
   Blockly.svgResize();
